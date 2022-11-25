@@ -1,0 +1,83 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+.container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+.first_page{
+    padding: 40px;
+    width: 474px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.article__1{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 116px;
+height: 24px;
+}
+.second_page{
+    padding: 40px;
+    width: 474px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.article__2{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 116px;
+height: 24px;
+}
+.third_page{
+    padding: 40px;
+    width: 474px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.article__3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 116px;
+    height: 24px;
+    }
+.fourth_page{ 
+    padding: 40px;
+  width: 474px;
+  height: 160px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.article__4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 116px;
+    height: 24px;
+    }
