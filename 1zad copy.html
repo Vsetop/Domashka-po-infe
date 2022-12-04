@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number = prompt('Введите число чтобы узнать делители')
+        let count = 0
+        function fit(number){
+        if (Number.isInteger(number)){
+            return 'Подходит'
+        }
+            return 'Число должно быть целым и больше 0!'
+        }
+        function getDivisorCount(number){  
+        for (j=1;j<=number;j++){
+            if( number % j == 0){
+                count++
+        }}}
+        getDivisorCount(number)
+        console.log(count)
+    </script>
+</body>
+</html>
